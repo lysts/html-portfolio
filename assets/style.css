@@ -1,0 +1,15 @@
+a:link {
+    color: darkcyan;
+}
+
+.description {
+    font-size: 15px;
+    color: darkgray;
+}
+nav ul {
+    list-style-type: none;
+}
+
+* {
+    font-family: sans-serif
+}
