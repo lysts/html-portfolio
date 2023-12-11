@@ -2,14 +2,38 @@ a:link {
     color: darkcyan;
 }
 
+a:hover {
+    color: yellowgreen;
+}
+
+a:visited {
+    color: darkgrey;
+}
 .description {
     font-size: 15px;
     color: darkgray;
 }
-nav ul {
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+}
+
+.homepage li {
     list-style-type: none;
 }
 
+ul {
+    padding-inline-start: 10px;
+}
 * {
-    font-family: sans-serif
+    font-family: 'Lora', serif;
+    /*font-family: 'Quattrocento Sans', sans-serif;*/
+}
+
+.extra-nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
 }
