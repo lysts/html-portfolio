@@ -28,12 +28,32 @@ ul {
     padding-inline-start: 10px;
 }
 * {
-    font-family: 'Lora', serif;
-    /*font-family: 'Quattrocento Sans', sans-serif;*/
+    /*font-family: 'Lora', serif;
+    font-family: 'Quattrocento Sans', sans-serif;*/
+    font-family: 'Bodoni Moda', serif;
+}
+
+.logo {
+    width: 10rem;
+    height: 10rem;
+
+}
+
+header {
+    background-image: url(../assets/lystsim/whiteshadows.jpg);
+    height: 100vh;
+    background-size: cover;
 }
 
 .extra-nav {
     display: flex;
     justify-content: space-around;
     gap: 1rem;
+}
+
+@media (max-width: 1000px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
 }
