@@ -1,20 +1,62 @@
+
+* {
+    /*font-family: 'Lora', serif;
+    font-family: 'Quattrocento Sans', sans-serif;*/
+    font-family: 'Bodoni Moda', serif;
+}
+
+body {
+    background-color: #181818;
+}
+
+.logo {
+    width: 10rem;
+    height: 10rem;
+}
+
+header {
+    background-image: url(../assets/lystsim/whiteshadows.jpg);
+    height: 80vh;
+    background-size: cover;
+}
+
+#lysts {
+    padding: 1rem 1rem 2rem 1rem;
+    color: rgb(124, 124, 124);
+}
+
+#homepage-nav {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
 a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+.extra-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2rem ;
+}
+
+.nom-noms a:link {
     color: darkcyan;
 }
 
 a:hover {
     color: yellowgreen;
+    font-family: 'Lora', serif;
+ 
 }
 
 a:visited {
-    color: darkgrey;
-}
-.description {
-    font-size: 15px;
-    color: darkgray;
+    color: grey;
 }
 
-.container {
+/*.container {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 1rem;
@@ -26,34 +68,4 @@ a:visited {
 
 ul {
     padding-inline-start: 10px;
-}
-* {
-    /*font-family: 'Lora', serif;
-    font-family: 'Quattrocento Sans', sans-serif;*/
-    font-family: 'Bodoni Moda', serif;
-}
-
-.logo {
-    width: 10rem;
-    height: 10rem;
-
-}
-
-header {
-    background-image: url(../assets/lystsim/whiteshadows.jpg);
-    height: 100vh;
-    background-size: cover;
-}
-
-.extra-nav {
-    display: flex;
-    justify-content: space-around;
-    gap: 1rem;
-}
-
-@media (max-width: 1000px) {
-    .logo {
-        display: flex;
-        justify-content: center;
-    }
-}
+}*/
