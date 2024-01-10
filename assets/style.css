@@ -5,8 +5,17 @@
     font-family: 'Bodoni Moda', serif;
 }
 
-body {
+
+.body {
     background-color: #181818;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #d9d9d0;
+}
+
+hr {
+    border-color: rgba(57, 57, 57, 0.501);
 }
 
 .logo {
@@ -21,51 +30,53 @@ header {
 }
 
 #lysts {
-    padding: 1rem 1rem 2rem 1rem;
-    color: rgb(124, 124, 124);
+    padding: 1.5rem 2rem;
+    color: #d9d9d0;
+    letter-spacing: 0.5rem;
 }
 
-#homepage-nav {
+.homepage-nav {
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
-    padding-left: 2rem;
+    padding: 2rem 1rem 2rem 2rem;
 }
+
 a:link {
-    color: grey;
+    color: #d9d9d0;
+    font-family: 'Lora', sans-serif;
     text-decoration: none;
-}
-
-.extra-nav {
-    display: flex;
-    justify-content: space-around;
-    padding: 0 2rem ;
-}
-
-.nom-noms a:link {
-    color: darkcyan;
+    letter-spacing: 0.05rem;
 }
 
 a:hover {
-    color: yellowgreen;
-    font-family: 'Lora', serif;
+    color: #2a6c58;
  
 }
 
+a:active {
+    color: #2a6c58;
+}
+
 a:visited {
-    color: grey;
+    color: #d9d9d0;
 }
 
-/*.container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 1rem;
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+
 }
 
-.homepage li {
-    list-style-type: none;
+.footer p {
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+    color: rgb(182, 182, 182)
 }
 
-ul {
-    padding-inline-start: 10px;
-}*/
+.footer-nav {
+    display: flex;
+    gap: 1rem;
+}
